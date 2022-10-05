@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    height: 100vh;
+}
+
+h1 {
+   font-size: 60px;
+   background: linear-gradient(83deg, #000 40%,#eee 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+    text-fill-color: transparent;
+}
+
+.password{
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    width:80%;
+    align-items: center;
+    justify-content: center;
+}
